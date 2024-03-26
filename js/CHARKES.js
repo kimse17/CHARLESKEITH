@@ -1,18 +1,18 @@
 
-var cnt = 0;
+// var cnt = 0;
 
-var btn_r = document.querySelector(".r_row_icon_l");
-var frame_all = document.querySelector(".r_row_all");
-btn_r.addEventListener('click', function() {
-    console.log('frame_all -> ', frame_all);
-    frame_all.style.left = "20px";
-});
-var btn_l = document.querySelector(".r_row_icon_r");
-var frame_all = document.querySelector(".r_row_all");
-btn_l.addEventListener('click', function() {
-    console.log('frame_all -> ', frame_all);
-    frame_all.style.left = "-1100px"
-});
+// var btn_r = document.querySelector(".r_row_icon_l");
+// var frame_all = document.querySelector(".r_row_all");
+// btn_r.addEventListener('click', function() {
+//     console.log('frame_all -> ', frame_all);
+//     frame_all.style.left = "20px";
+// });
+// var btn_l = document.querySelector(".r_row_icon_r");
+// var frame_all = document.querySelector(".r_row_all");
+// btn_l.addEventListener('click', function() {
+//     console.log('frame_all -> ', frame_all);
+//     frame_all.style.left = "-1100px"
+// });
 
 
 
@@ -104,3 +104,11 @@ $(function () {
 
 })
 
+
+$('.post-wrapper').slick({
+    slidesToShow:5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+
+})
