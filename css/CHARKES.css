@@ -468,15 +468,14 @@ header {
 }
 
 .post>img {
-    width: 430px;
+    width: 450px;
     height: 500px;
 }
 
 .post-info {
     position: relative;
-    width: 430px;
+    width: 450px;
     height: 80px;
-    background-color: yellow;
 }
 
 .post-info>h4 {
