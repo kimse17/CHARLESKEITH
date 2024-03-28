@@ -23,7 +23,8 @@
                 'GRAD'0,
                 'opsz'20
         }
- .slick-prev {
+
+        .slick-prev {
             display: none;
         }
 
@@ -32,6 +33,28 @@
             overflow: hidden;
             display: none;
             border: none;
+        }
+
+        .slick-dots {
+            position: absolute;
+            top: -10px;
+            right: 30px;
+        }
+
+        .slick-dots li {
+            float: left;
+            list-style: none;
+        }
+
+        .slick-dots li button {
+            width: 10px;
+            text-indent: -9999px;
+            overflow: hidden;
+            border: none;
+            margin-left: 5px;
+            background-color: rgba(49, 49, 49, 0.389);
+            border-radius: 50%;
+            height: 10px;
         }
     </style>
 </head>
@@ -181,29 +204,7 @@
     <div class="r_item">
         추천상품
     </div>
-    <!-- 
-    <div id="btn">
-        <div class="r_row_icon_l">
-            <span class="material-symbols-outlined">
-                arrow_back_ios
-            </span>
-        </div>
-        <div class="r_row_icon_r">
-            <span class="material-symbols-outlined">
-                arrow_forward_ios
-            </span>
-        </div>
-    </div> -->
-
-
-
-
-
-
-
-
     <div class="multiple-items">
-
         <div class="post">
             <img src="./img/bag_02.jpg" alt="">
             <div class="post-info">
@@ -219,23 +220,19 @@
             </div>
         </div>
         <div class="post">
-            <img src="./img/b_04.jpg" alt="">
+            <img src="./img/bag_04.jpg" alt="">
             <div class="post-info">
                 <h4><a href="#">필로미나 퀼티드 하트 크로스바디 백</a></h4>
                 <P class="far fa-user">₩95,000</P>
             </div>
         </div>
-
-
         <div class="post">
-            <img src="./img/b_05.jpg" alt="340x340">
+            <img src="./img/bag_05.jpg" alt="340x340">
             <div class="post-info">
                 <h4><a href="#">필로미나 나일론 퍼프 체인</a></h4>
                 <P class="far fa-user"> ₩115,900</P>
             </div>
         </div>
-
-
         <div class="post">
             <img src="./img/bag_06.jpg">
             <div class="post-info">
@@ -243,7 +240,6 @@
                 <P class="far fa-user">₩95,900</P>
             </div>
         </div>
-
         <div class="post">
             <img src="./img/bag_07.jpg">
             <div class="post-info">
@@ -251,45 +247,46 @@
                 <P class="far fa-user">₩165,900</P>
             </div>
         </div>
-
         <div class="post">
             <img src="./img/bag_01.jpg" class="slider-image">
             <div class="post-info">
-                <h4><a href="#">앨리 러치드 슬라우치 백</a></h4>
-                <P class="far fa-user">₩95,900</P>
+                <h4><a href="#">페트라 커브 숄더 백</a></h4>
+                <P class="far fa-user">₩99,900</P>
             </div>
         </div>
         <div class="post">
-            <img src="./img/bag_07.jpg" class="slider-image">
+            <img src="./img/b_08.jpg" class="slider-image">
             <div class="post-info">
-                <h4><a href="#">듀오 더블 체인 호보백</a></h4>
-                <P class="far fa-user">₩165,900</P>
+                <h4><a href="#">토니 노티드 커브 호보 백 </a></h4>
+                <P class="far fa-user">₩119,900</P>
             </div>
         </div>
         <div class="post">
-            <img src="./img/bag_07.jpg" class="slider-image">
+            <img src="./img/b_09.jpg" class="slider-image">
             <div class="post-info">
-                <h4><a href="#">듀오 더블 체인 호보백</a></h4>
-                <P class="far fa-user">₩165,900</P>
+                <h4><a href="#">퀼티드 멀티-슬롯 카드 홀더</a></h4>
+                <P class="far fa-user">₩29,900</P>
             </div>
         </div>
         <div class="post">
-            <img src="./img/bag_07.jpg" class="slider-image">
+            <img src="./img/b_10.jpg" class="slider-image">
             <div class="post-info">
-                <h4><a href="#">듀오 더블 체인 호보백</a></h4>
-                <P class="far fa-user">₩165,900</P>
+                <h4><a href="#">스트랩 플랫폼 메리 제인</a></h4>
+                <P class="far fa-user">₩115,900</P>
             </div>
         </div>
         <div class="post">
-            <img src="./img/bag_07.jpg" class="slider-image">
+            <img src="./img/b_11.jpg" class="slider-image">
             <div class="post-info">
-                <h4><a href="#">듀오 더블 체인 호보백</a></h4>
-                <P class="far fa-user">₩165,900</P>
+                <h4><a href="#">니트 삭스 리지-솔 첼시 부츠</a></h4>
+                <P class="far fa-user">₩129,900</P>
             </div>
         </div>
     </div>
 
-    
+
+
+    <!-- 링크 부분 -->
     <section id="sub_main">
         <img src="./img/charles-keith-home-week-6-b-people-desktop-1920x825.png" alt="">
         <a href="">
@@ -573,13 +570,64 @@
     <!-- 푸터 부분 -->
     <footer id="footer_all">
 
+        <section id="footer_left">
+            <div>
+                <ul>SHOPPING WITH US
+                    <li>신상품</li>
+                    <li>슈즈</li>
+                    <li>백</li>
+                    <li>지갑</li>
+                    <li>선글라스</li>
+                    <li>주얼리</li>
+                    <li>액세서리</li>
+                    <li>더프레스</li>
+                </ul>
+            </div>
 
 
+            <div>
+                <ul>CUSTOMER CARE
+                    <li>주문조회</li>
+                    <li>프리빌리지 멤버십</li>
+                    <li>자주 묻는 질문</li>
+                    <li>문의하기</li>
+                    <li>위조품 분별법</li>
+                    <li>패션가이드</li>
+                    <li>나의 계정</li>
+                    <li>배송 및 조회</li>
+                    <li>프로모션</li>
+                    <li>사이즈 가이드</li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>ABOUT US
+                    <li>매장위치</li>
+                    <li>브랜드 프로필</li>
+                    <li>지속가능경영</li>
+                    <li>영행력 프로그램</li>
+                    <li>프렌차이즈 문의</li>
+                    <li>제휴문의</li>
+                    <li>앰버서더</li>
+                </ul>
+            </div>
+        </section>
 
 
+        <section id="footer_right">
+            <h4>찰스앤키스 앱 다운로드</h4>
+            <img src="./img/app_store.png" width="100px" alt="">
+            <img src="./img/google_play.png" width="100px" alt="">
+        </section>
 
-
-
+        <section id="footer_right">
+            <h4>결제 방법</h4>
+            <img src="./img/master-card.png" width="40px" alt="">
+            <img src="./img/applepay_30x20.png" width="40px" alt="">
+            <img src="./img/NaverPay.png" width="40px" alt="">
+            <img src="./img/visa.png" width="40px" alt="">
+            <img src="./img/KakaoPay.png" width="40px" alt="">
+        </section>
 
 
 
@@ -594,14 +642,16 @@
 
 
 
+
     <script>
         $('.multiple-items').slick({
             infinite: true,
             slidesToShow: 4,
             slidesToScroll: 3,
-            autoplay:true,
+            autoplay: true,
             autoplaySpeed: 1500,
-            infinite: true
+            infinite: true,
+            dots: true
         });
     </script>
 
