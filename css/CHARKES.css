@@ -28,9 +28,9 @@ a:visited {
     text-decoration: none;
 }
 
-/* a:hover {
+a:hover {
     color: gray;
-} */
+} 
 
 header {
     position: relative;
@@ -393,66 +393,6 @@ header {
 
 }
 
-/* .post-slider {
-    background-color: yellowgreen;
-    width: 100%;
-    height: 600px;
-    margin: 0px auto;
-    position: relative;
-}
-.post-slider>.post{
-    position: relative;
-    float: left;
-
-} */
-/* 
-.post-slider .post-wrapper {
-    width: 100%;
-    height: 600px;
-    margin: 0px auto;
-    overflow: hidden;
-   
-}  */
-
-/* .post {
-    position: relative;
-    width: 430px;
-    height: 600px;
-
-    display: inline-block;
-
-}
-
-.post-slider .post-wrapper .slider-image {
-    width: 430px;
-    height: 500px;
-}
-
-.post-info {
-    text-align: center;
-    position: relative;
-    width: 430px;
-    height: 60px;
-    background-color: #e7e7e7;
-}
-
-
-.post-info>h4 {
-    font-weight: 500;
-    font-size: 0.9rem;
-    height: 20px;
-
-}
-
-.far {
-    height: 20px;
-    line-height: 20px;
-}
-
-.post-info {
-    position: relative;
-    text-align: center;
-} */
 
 .post .slick-slde {
     position: relative;
