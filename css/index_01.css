@@ -146,13 +146,14 @@ header {
     height: 20px;
     top: -5px;
 }
-#h_box_all{
+
+#h_box_all {
     background-color: #ffffff;
     position: sticky;
     width: 100%;
     top: 0;
     height: 50px;
-    z-index: 8;   
+    z-index: 8;
 }
 
 #h_box_03 {
@@ -270,4 +271,58 @@ header {
     top: -48px;
     left: 40px;
     font-size: 0.9rem;
+}
+
+#main_all {
+    position: relative;
+    top: 50px;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 750px;
+}
+
+#main_all>img {
+    width: 100%;
+    height: 700px;
+}
+
+.main_ment {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    text-align: center;
+}
+
+.main_ment>h6 {
+    letter-spacing: 8px;
+    font-size: 1.0rem;
+    height: 40px;
+    line-height: 40px;
+}
+
+.main_ment>h2 {
+    font-size: 1.5rem;
+    line-height: 40px;
+
+}
+
+.main_ment>p {
+    font-size: 0.9rem;
+    height: 70px;
+    line-height: 20px;
+}
+
+#ment_all{
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+#ment_all>p{
+padding: 30px;
+line-height: 25px;
 }
