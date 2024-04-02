@@ -332,19 +332,49 @@ header {
     width: 100%;
     height: 700px;
     margin: 0 auto;
-    background-color: yellowgreen;
 }
 
 .sub_img {
     text-align: center;
     position: relative;
     float: left;
-    width:33%;
-    /* background-color: #333; */
+    width: 33.3%;
+    height: 700px;
+}
+.sub_ment{
+    position: relative;
+    width: 550px;
+    height: 150px;
+    text-align: left;
+    margin: 0 auto;
+}
+.sub_ment>p:nth-child(1){
+    font-size: 0.9rem;
+    height: 20px;
+   
+    font-family: 'Courier New', Courier, monospace;
+}
+.sub_ment>h4{
+    font-size: 1.1rem;
+    color: black;
+    height: 40px;
+    line-height: 20px;
+    
+}
+.sub_ment>p:nth-child(3){
+    font-size: 0.8rem;
+    height: 20px;
+    line-height: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.sub_ment>p:nth-child(4){
+    font-size: 0.9rem;
+    height:60px;
+    line-height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
 
 }
-
-
 
 
 #footer_all {
