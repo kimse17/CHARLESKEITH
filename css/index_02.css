@@ -352,8 +352,7 @@ header {
 .main_img {
     position: relative;
     width: 100%;
-    height: 850px;
-    background-color: #ffb7b7;
+    height: 800px;
 }
 
 .main_img>img {
@@ -382,6 +381,41 @@ header {
     left: 250px;
     color: #ffffff;
     font-size: 0.9rem;
+}
+
+ #main_ment{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 150px;
+    font-size: 0.9rem;
+    margin-top: 100px;
+} 
+#sub_img{
+    position: relative;
+    width: 100%;
+    clear: both;
+    height: 800px;
+    text-align: center;
+}
+#sub_img>div>img{
+    width: 650px;
+    height: 750px;
+    margin-left: 50px;
+}
+
+#main_ment_01{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    height: 150px;
+    margin-bottom: 50px;
+    font-size: 0.9rem;
+} 
+#main_ment_01>h3{
+    height: 50px;
+    font-size: 1.5rem;
+    color: black;
 }
 #footer_all {
     position: relative;
