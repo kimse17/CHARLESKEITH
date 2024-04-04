@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* * ::-webkit-scrollbar{
+  overflow:auto
+    } -스크롤 없애기 */
+body {
+    font-size: 10pt;
+    color: rgb(74, 74, 74);
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* 세로스크롤 남기기 */
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:link,
+a:active,
+a:visited {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+
+}
+
+#h_box_01 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    clear: both;
+    margin: 0 auto;
+
+}
+
+.slide_img {
+    position: sticky;
+    background-color: rgb(68, 68, 68);
+    width: 100%;
+    top: 0px;
+    overflow: hidden;
+    height: 40px;
+    z-index: 11;
+    height: 40px;
+
+}
+
+.event {
+    position: relative;
+    width: 100%;
+    background-color: rgb(68, 68, 68);
+    height: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.event_01 {
+    font-size: 0.8rem;
+    margin: 0 auto;
+    width: 500px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.h_box_01_01 {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    margin: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.h_box_01_01>img {
+    width: 220px;
+    height: 30px;
+}
+
+#h_box_02 {
+    position: absolute;
+    top: 10px;
+    width: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    right: 0;
+    height: 20px;
+
+}
+
+.h_box_02_01 {
+    position: relative;
+    width: 100px;
+    right: 0;
+    border-right: 1px solid rgb(184, 183, 183);
+}
+
+.h_box_02_02 {
+    position: relative;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    left: 20px;
+}
+
+.h02_each01 {
+    position: relative;
+    width: 80px;
+    height: 20px;
+    border-right: 1px solid rgb(184, 183, 183);
+    top: 0px;
+    left: 10px;
+}
+
+.h02_each02 {
+    position: relative;
+    width: 90px;
+    height: 20px;
+    border-right: 1px solid rgb(184, 183, 183);
+    top: 0px;
+    left: 13px;
+}
+
+.material-symbols-outlined.icon {
+    font-size: 20px;
+}
+
+.ment {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    top: -5px;
+}
+
+#h_box_all {
+    background-color: #ffffff;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    z-index: 8;
+}
+
+#h_box_03 {
+    font-size: 0.8rem;
+    position: relative;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 0.5 gray;
+    height: 40px;
+    clear: both;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.h03_m_01 {
+    position: relative;
+    width: 1400px;
+    height: 40px;
+    display: flex;
+    left: 30px;
+    flex-flow: row nowrap;
+}
+
+#menu_each_01 {
+    width: 50px;
+    height: 40px;
+}
+
+#menu_each_02 {
+    width: 190px;
+    height: 40px;
+}
+
+#menu_each_03 {
+    width: 65px;
+    height: 40px;
+}
+
+#menu_each_04 {
+    width: 75px;
+    height: 40px;
+}
+
+#menu_each_05 {
+    width: 50px;
+    height: 40px;
+}
+
+#menu_each_06 {
+    width: 40px;
+    height: 40px;
+}
+
+#menu_each_07 {
+    width: 55px;
+    height: 40px;
+}
+
+#menu_each_08 {
+    width: 75px;
+    height: 40px;
+}
+
+#menu_each_09 {
+    width: 70px;
+    height: 40px;
+}
+
+#menu_each_10 {
+    width: 75px;
+    height: 40px;
+}
+
+#menu_each_11 {
+    width: 50px;
+    height: 40px;
+}
+
+#menu_each_12 {
+    width: 100px;
+    height: 40px;
+}
+
+#menu_each_13 {
+    width: 70px;
+    height: 40px;
+}
+
+
+.h_icon_all {
+    position: relative;
+    width: 400px;
+    left: 150px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+}
+
+.h_icon_01 {
+    height: 30px;
+    background-color: rgba(211, 211, 211, 0.226);
+    border: 1px solid rgb(184, 184, 184);
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.h_icon_01>p {
+    width: 30px;
+    position: relative;
+    top: -48px;
+    left: 40px;
+    font-size: 0.9rem;
+}
+
+#mini_menu {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    left: 50px;
+}
+
+#mini_menu>span {
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+#mini_menu>span:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    width: 1.5px;
+    height: 15px;
+    top: 13px;
+    left: 30px;
+    background-color: #cdcdcd;
+}
+
+#mini_menu>span:nth-child(2)::after {
+    content: '';
+    position: absolute;
+    width: 1.5px;
+    height: 15px;
+    top: 13px;
+    left: 105px;
+    background-color: #cdcdcd;
+}
+
+#mini_menu>span:nth-child(3) {
+    color: #000000;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+#mini_menu::after{
+    position: absolute;
+    content: '';
+    top: 45px;
+    width: 100%;
+    height: 1px;
+    left: -50px;
+    background-color: #dbdbdb;
+}
+#sub_ment{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+}
+#sub_ment>span{
+    position: absolute;
+    top: 0;
+    width: 40px;
+    left: 50px;
+    background-color: yellowgreen;
+}
+
+#footer_all {
+    position: relative;
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+    height: 450px;
+    top: 50px;
+    clear: both;
+    color: #ffffff;
+}
+
+#footer_left {
+    position: relative;
+    float: left;
+    width: 1200px;
+    height: 450px;
+}
+
+#footer_left>div {
+    float: left;
+    position: relative;
+    height: auto;
+    width: 300px;
+    margin: 20px;
+    left: 60px;
+}
+
+#footer_left>div>ul {
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.0rem;
+    font-weight: 600;
+
+}
+
+#footer_left>div>ul>li {
+    list-style: none;
+    height: 30PX;
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+#footer_left>div>ul>li:hover {
+    text-decoration: underline;
+}
+
+#footer_right {
+    position: relative;
+    float: left;
+    width: 500px;
+    padding: 30px;
+}
+
+#footer_right>h4 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.0rem;
+}
+
+#footer_right>img {
+    margin-left: 10px;
+    cursor: pointer;
+}
