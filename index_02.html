@@ -24,38 +24,30 @@
                 'opsz'20
         }
 
-        .slick-prev {
-            display: none;
-        }
-
         .slick-arrow {
-            text-indent: -99999px;
-            overflow: hidden;
-            display: none;
+            width: 50px;
+            height: 50px;
             border: none;
-        }
-
-        .slick-dots {
-            position: absolute;
-            top: -10px;
-            right: 30px;
-        }
-
-        .slick-dots li {
-            float: left;
-            list-style: none;
-        }
-
-        .slick-dots li button {
-            width: 10px;
+            top: 50%;
+            transform: translateY(-50%);
             text-indent: -9999px;
             overflow: hidden;
-            border: none;
-            margin-left: 5px;
-            background-color: rgba(49, 49, 49, 0.389);
-            border-radius: 50%;
-            height: 10px;
+            position: absolute;
         }
+
+        /* 오른쪽 왼쪽 공통부분 */
+
+        .slick-prev {
+            background: url(img/nav-prev\(5050\).png) no-repeat 0 0;
+            left: 0;
+        }
+
+        .slick-next {
+            background: url(img/nav-next\(50\,50\).png) no-repeat 0 0;
+            right: -1px;
+        }
+
+        /* 버튼 모양넣기 */
     </style>
 </head>
 
@@ -220,7 +212,7 @@
 
     <!-- 서브부분 -->
     <section id="sub_img">
-        <div>
+        <div class="your-class">
             <img src="./img/index_03sub_00.jpg" alt="">
             <img src="./img/index_03sub_01.jpg" alt="">
         </div>
@@ -228,17 +220,32 @@
 
     <div id="main_ment_01">
         <h3>Eyelets</h3>
-        <p>With a refined aesthetic that is more elegant than rock, <br> eyelets are a trending embellishment this season.<br> Featuring an eye-catching metallic shine, they are statement-making and functional at the same time. <br>When applied on shoes, they are striking details that also serve the purpose of securing buckled straps. Lining the criss-crossing straps of <br> platform Mary Janes, silver-toned eyelets elevate the classic schoolgirl shoe style  <br>— yet,this bolder, utterly modern version is still versatile and understated enough for everyday wear.
+        <p>With a refined aesthetic that is more elegant than rock, <br> eyelets are a trending embellishment this
+            season.<br> Featuring an eye-catching metallic shine, they are statement-making and functional at the same
+            time. <br>When applied on shoes, they are striking details that also serve the purpose of securing buckled
+            straps. Lining the criss-crossing straps of <br> platform Mary Janes, silver-toned eyelets elevate the
+            classic schoolgirl shoe style <br>— yet,this bolder, utterly modern version is still versatile and
+            understated enough for everyday wear.
         </p>
     </div>
 
-    <section id="sub_img">
-        <div>
-            <img src="./img/index_03sub_02.jpg" alt="">
-            <img src="./img/index_03sub_03.jpg" alt="">
+    <section id="item_all">
+        <div class="multiple-items">
+            <div><img src="./img/index_03sub_02.jpg" width="600px" alt=""></div>
+            <div><img src="./img/index_03sub_03.jpg" width="600px" alt=""></div>
+            <div><img src="./img/index_03sub_04.jpg" width="600px" alt=""></div>
+            <div><img src="./img/index_03sub_05.jpg" width="600px" alt=""></div>
         </div>
     </section>
-
+    <div id="main_ment_01">
+        <h3>Kitten Heels & Pointed Toes</h3>
+        <p>Combining dainty kitten heels with a sharp pointed-toed silhouette — both key trends of Spring 2024 — these
+            <br>grommet-strap pumps juxtapose contrasting elements to create a sleek design that is fashionable yet
+            <br>wearable. They also blend the edgy glamour of eyelets with the girlish charm of kitten heels to create a
+            <br>visually captivating effect. Made to be the star of any look, you can wear this pair with a diverse
+            range of
+            <br>outfits, from full-skirted dresses to your favourite jeans.</p>
+    </div>
     <!-- footer 부분 -->
     <footer id="footer_all">
         <section id="footer_left">
@@ -298,10 +305,10 @@
 
     <script>
         $('.multiple-items').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-});
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2
+        });
     </script>
 </body>
 
