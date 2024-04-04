@@ -368,6 +368,7 @@ header {
     letter-spacing: 8px;
     font-size: 1.2rem;
 }
+
 .main_img>h2 {
     position: absolute;
     top: 350px;
@@ -375,47 +376,72 @@ header {
     color: #ffffff;
     font-size: 1.8rem;
 }
+
 .main_img>h4 {
     position: absolute;
-    top:500px;
+    top: 500px;
     left: 250px;
     color: #ffffff;
     font-size: 0.9rem;
 }
 
- #main_ment{
+#main_ment {
     position: relative;
     width: 100%;
     text-align: center;
     height: 150px;
     font-size: 0.9rem;
     margin-top: 100px;
-} 
-#sub_img{
+}
+
+#sub_img {
     position: relative;
     width: 100%;
     clear: both;
     height: 800px;
     text-align: center;
 }
-#sub_img>div>img{
+
+#sub_img>div>img {
     width: 650px;
     height: 750px;
     margin-left: 50px;
 }
 
-#main_ment_01{
+#main_ment_01 {
     position: relative;
     width: 100%;
     text-align: center;
     height: 150px;
     margin-bottom: 50px;
     font-size: 0.9rem;
-} 
-#main_ment_01>h3{
+}
+
+#main_ment_01>h3 {
     height: 50px;
     font-size: 1.5rem;
     color: black;
+}
+
+
+
+#item_all {
+    position: relative;
+    width: 1400px;
+    height: 870px;
+    margin: 0 auto;
+    overflow: hidden; 
+
+}
+
+.multiple-items>div {
+    margin: 0 45px ;
+    padding: 10px;
+}
+.slick-list{
+    position: relative;
+    overflow: hidden;
+    width: 1400px;
 }
 #footer_all {
     position: relative;
