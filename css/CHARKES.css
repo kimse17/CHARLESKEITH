@@ -513,7 +513,7 @@ header {
     width: 100%;
 }
 
-.wrap_img>img {
+.wrap_img>a>img {
     height: 600px;
     width: 470px;
     cursor: pointer;
@@ -521,7 +521,7 @@ header {
     margin-right: 5px;
 }
 
-.wrap_img>a>p {
+.wrap_ment>p {
     position: relative;
     width: 300px;
     height: 30px;
