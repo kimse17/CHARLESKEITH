@@ -449,32 +449,54 @@ header {
 #sub_mini_img {
     width: 100%;
     margin: 0 auto;
+    height: 500px;
     position: relative;
-    padding-left:307px;
+    padding-left: 305px;
 }
-#sub_mini_img>img{
-    width: 325px;
+
+#sub_mini_img>img {
+    width: 330px;
     height: 400px;
 }
 
-#item_all {
+#sub_m_img {
     position: relative;
-    width: 1400px;
-    height: 870px;
-    margin: 0 auto;
-    overflow: hidden;
-
+    width: 100%;
+    height: 500px;
 }
 
-.multiple-items>div {
-    margin: 0 45px;
-    padding: 10px;
+#sub_m_img>div {
+    width: 330px;
+
+    float: left;
+    margin-left: 15px;
+
+    padding-left: 255px;
 }
 
-.slick-list {
+#sub_m_img>div>img {
+    width: 330px;
+    height: 400px;
+}
+
+#sub_m_img>div>p {
+    width: 340px;
+    color: #000000;
+    font-weight: 550;
+}
+
+#s_img {
     position: relative;
-    overflow: hidden;
-    width: 1400px;
+    width: 100%;
+    clear: both;
+    height: 780px;
+    text-align: center;
+}
+
+#s_img>div>img {
+    width: 670px;
+    height: 750px;
+    margin: 5px;
 }
 
 #footer_all {
