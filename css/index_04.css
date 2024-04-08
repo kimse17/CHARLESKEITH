@@ -411,29 +411,32 @@ header {
     margin: 0 auto;
     border: 1px solid black;
 }
-#main_ment>p:nth-child(2):hover{
+
+#main_ment>p:nth-child(2):hover {
     text-decoration: underline;
 }
+
 #sub_img {
     position: relative;
     width: 100%;
     clear: both;
-    height: 800px;
+    height: 780px;
     text-align: center;
 }
 
 #sub_img>div>img {
-    width: 650px;
+    width: 670px;
     height: 750px;
-    margin-left: 50px;
+    padding-left: 30px;
+    /* margin-left: 30px; */
 }
 
 #main_ment_01 {
     position: relative;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    left: 300px;
     height: 150px;
-    margin-bottom: 50px;
     font-size: 0.9rem;
 }
 
@@ -443,7 +446,16 @@ header {
     color: black;
 }
 
-
+#sub_mini_img {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-left:307px;
+}
+#sub_mini_img>img{
+    width: 325px;
+    height: 400px;
+}
 
 #item_all {
     position: relative;
