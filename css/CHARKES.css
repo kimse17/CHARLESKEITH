@@ -549,28 +549,6 @@ header {
     color: #ffffff;
 }
 
-.wrap_ment03 {
-    position: absolute;
-    width: 300px;
-    bottom: 100px;
-    height: 20px;
-    font-size: 1.1rem;
-    left: 20px;
-    color: #494949;
-    font-weight: bold;
-}
-
-.wrap_ment04 {
-    position: absolute;
-    width: 300px;
-    bottom: 100px;
-    height: 20px;
-    font-size: 0.8rem;
-    left: 20px;
-    text-decoration: underline;
-    color: #494949;
-}
-
 .v_mp4 {
     position: relative;
     width: 45%;
@@ -678,9 +656,36 @@ span.m_box_font_02 {
     width: 100%;
     position: relative;
     margin: 0 auto;
+    clear: both;
     margin-top: 100px;
 }
+.wrap_img{
+    margin-left: 25px;
+    position: relative;
+}
 
+.wrap_ment03 {
+    position: absolute;
+    width: 300px;
+    bottom: 100px;
+    height: 20px;
+    font-size: 1.1rem;
+    left: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.wrap_ment04 {
+    position: absolute;
+    width: 300px;
+    bottom: 100px;
+   bottom: 60px;
+    height: 20px;
+    font-size: 0.8rem;
+    left: 20px;
+    text-decoration: underline;
+    color: #ffffff;
+}
 
 #footer_all {
     position: relative;
