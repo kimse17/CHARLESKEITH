@@ -146,13 +146,14 @@ header {
     height: 20px;
     top: -5px;
 }
-#h_box_all{
+
+#h_box_all {
     background-color: #ffffff;
     position: sticky;
     width: 100%;
     top: 0;
     height: 50px;
-    z-index: 8;   
+    z-index: 8;
 }
 
 #h_box_03 {
@@ -512,20 +513,21 @@ header {
     display: flex;
     width: 100%;
 }
-
+.wrap_img{
+    position: relative;
+    margin-left: 5px;
+}
 .wrap_img>a>img {
     height: 600px;
     width: 470px;
     cursor: pointer;
     position: relative;
-    margin-right: 5px;
 }
 
 .wrap_ment>p {
     position: relative;
     width: 300px;
     height: 30px;
-
 }
 
 .wrap_ment01 {
@@ -659,10 +661,8 @@ span.m_box_font_02 {
     clear: both;
     margin-top: 100px;
 }
-.wrap_img{
-    margin-left: 25px;
-    position: relative;
-}
+
+
 
 .wrap_ment03 {
     position: absolute;
@@ -679,7 +679,7 @@ span.m_box_font_02 {
     position: absolute;
     width: 300px;
     bottom: 100px;
-   bottom: 60px;
+    bottom: 60px;
     height: 20px;
     font-size: 0.8rem;
     left: 20px;
