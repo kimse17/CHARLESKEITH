@@ -622,8 +622,7 @@ header {
 }
 
 #footer_right {
-    position: relative;
-    float: left;
+    position: absolute;
     width: 500px;
     padding: 30px;
 }
