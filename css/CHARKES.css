@@ -250,7 +250,6 @@ header {
     position: relative;
     width: 400px;
     left: 150px;
-
     height: 40px;
     line-height: 40px;
     display: flex;
@@ -329,15 +328,16 @@ header {
     font-size: 0.9rem;
     color: #ffffff;
 }
-
+.m_icon{
+    display: none;
+}
 #sub_main {
     position: relative;
     width: 100%;
     height: 830px;
     cursor: pointer;
 }
-
-#sub_main>img {
+#sub_main>a>img {
     width: 100%;
     height: 820px;
 }
@@ -409,11 +409,10 @@ header {
 }
 
 
-.post .slick-slde {
+.slick-slde {
     position: relative;
     display: inline-block;
     width: 100%;
-    text-align: center;
     height: 650px;
 }
 
@@ -509,11 +508,11 @@ header {
     margin: 0 auto;
 }
 
-.wrap_all {
+.wrap_all, .wrap_all_01 {
     display: flex;
     width: 100%;
 }
-.wrap_img{
+.wrap_img, .wrap_img{
     position: relative;
     margin-left: 5px;
 }
@@ -523,7 +522,18 @@ header {
     cursor: pointer;
     position: relative;
 }
-
+.wrap_img_01{
+    position: relative;
+    height: 600px;
+    width: 470px;
+    margin-left: 3px;
+}
+.wrap_img_01>img{
+    height: 600px;
+    width: 470px;
+    cursor: pointer;
+    position: relative;
+}
 .wrap_ment>p {
     position: relative;
     width: 300px;
@@ -591,7 +601,7 @@ header {
     text-align: center;
 }
 
-span.m_box_font_00 {
+.m_box_font_00 {
     border: 1px solid rgb(174, 174, 174);
     font-size: 0.8rem;
     display: block;
@@ -606,7 +616,7 @@ span.m_box_font_00 {
     margin-top: 10px;
 }
 
-span.m_box_font_01 {
+.m_box_font_01 {
     border: 1px solid rgb(174, 174, 174);
     font-size: 0.8rem;
     display: block;
@@ -620,7 +630,7 @@ span.m_box_font_01 {
     margin-top: 10px;
 }
 
-span.m_box_font_02 {
+.m_box_font_02 {
     border: 1px solid rgb(174, 174, 174);
     font-size: 0.8rem;
     display: block;
@@ -640,7 +650,6 @@ span.m_box_font_02 {
 
 #m_box_font_01 {
     height: 40px;
-    /* background-color: yellowgreen; */
     line-height: 40px;
     font-size: 1.1rem;
     color: #333;
@@ -734,7 +743,7 @@ span.m_box_font_02 {
     text-decoration: underline;
 }
 
-#footer_right {
+#footer_right, #footer_right_01 {
     position: relative;
     float: left;
     width: 500px;
@@ -748,6 +757,16 @@ span.m_box_font_02 {
 }
 
 #footer_right>img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+#footer_right_01>h4 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.0rem;
+}
+
+#footer_right_01>img {
     margin-left: 10px;
     cursor: pointer;
 }
