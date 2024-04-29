@@ -1,22 +1,4 @@
 
-// var cnt = 0;
-
-// var btn_r = document.querySelector(".r_row_icon_l");
-// var frame_all = document.querySelector(".r_row_all");
-// btn_r.addEventListener('click', function() {
-//     console.log('frame_all -> ', frame_all);
-//     frame_all.style.left = "20px";
-// });
-// var btn_l = document.querySelector(".r_row_icon_r");
-// var frame_all = document.querySelector(".r_row_all");
-// btn_l.addEventListener('click', function() {
-//     console.log('frame_all -> ', frame_all);
-//     frame_all.style.left = "-1100px"
-// });
-
-
-
-
 $(function(){
     var item_width = $(".m_img_01 >").outerWidth(true);
     $(".m_img_01:first").before($(".m_img_01:last"));
