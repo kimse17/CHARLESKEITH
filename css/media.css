@@ -59,6 +59,24 @@
         font-size: 0.7rem;
     }
 
+    .slide_img_01>h3 {
+        position: absolute;
+        letter-spacing: 5px;
+        line-height: 30px;
+        top: 500px;
+        left: 50px;
+        color: #ffffff;
+        font-size: 1.3rem;
+    }
+    .slide_img_01>p>a {
+        position: absolute;
+        text-decoration: underline;
+        top: 550px;
+        left: 50px;
+        font-size: 0.9rem;
+        color: #ffffff;
+    }
+
     #sub_main {
         position: relative;
         width: 100%;
@@ -209,38 +227,42 @@
 
     #footer_left {
         position: relative;
-        float: left; 
+        float: left;
         width: 100%;
         height: 800px;
     }
 
     #footer_left>div:nth-child(1) {
-        position:absolute;
+        position: absolute;
         height: 400px;
         width: 50%;
         left: 0;
     }
+
     #footer_left>div:nth-child(2) {
-        position:absolute;
+        position: absolute;
         height: 400px;
         width: 50%;
-      left: 300px;
+        left: 300px;
     }
+
     #footer_left>div:nth-child(3) {
-        position:absolute;
+        position: absolute;
         height: 300px;
         width: 50%;
         left: 300px;
         top: 450px;
     }
+
     #footer_right {
-        position:absolute;
+        position: absolute;
         top: 450px;
         width: 400px;
         padding: 30px;
     }
+
     #footer_right_01 {
-        position:absolute;
+        position: absolute;
         top: 600px;
         width: 400px;
         padding: 30px;
