@@ -31,7 +31,46 @@ a:visited {
 a:hover {
     color: gray;
 }
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL'0,
+        'wght'300,
+        'GRAD'0,
+        'opsz'20
+}
 
+.slick-prev {
+    display: none;
+}
+
+.slick-arrow {
+    text-indent: -99999px;
+    overflow: hidden;
+    display: none;
+    border: none;
+}
+
+.slick-dots {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+}
+
+.slick-dots li {
+    float: left;
+    list-style: none;
+}
+
+.slick-dots li button {
+    width: 10px;
+    text-indent: -9999px;
+    overflow: hidden;
+    border: none;
+    margin-left: 5px;
+    background-color: rgba(49, 49, 49, 0.389);
+    border-radius: 50%;
+    height: 10px;
+}
 header {
     position: relative;
     width: 100%;
